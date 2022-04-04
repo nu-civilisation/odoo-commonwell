@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <odoo>
-    <menuitem id="commonwell_menu_root" name="CommonWell Partners">
-        <menuitem id="commonwell_menu_partners" name="Partners">
-            <menuitem id="commonwell_menu_partners" action="commonwell_partners_action"/>
+    <menuitem id="commonwell_menu_root" name="CommonWell">
+        <menuitem id="commonwell_menu_cultivation" name="Cultivation">
+            <menuitem id="commonwell_menu_partners" action="commonwell_action_partners"/>
         </menuitem>
         <menuitem id="commonwell_menu_settings" name="Settings">
-            <menuitem id="commonwell_menu_types" action="commonwelll_types_action"/>
-            <menuitem id="commonwell_menu_tags" action="commonwell_tags_action"/>
+            <menuitem id="commonwell_menu_partner_types" action="commonwell_action_partner_types"/>
+            <menuitem id="commonwell_menu_partner_tags" action="commonwell_action_partner_tags"/>
         </menuitem>
     </menuitem>
 </odoo>
