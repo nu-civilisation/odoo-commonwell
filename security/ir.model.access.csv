@@ -1,7 +1,11 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
-access_commonwell_partners,access_commonwell_partners,model_commonwell_partners,base.group_user,1,0,0,0
-modify_commonwell_partners,modify_commonwell_partners,model_commonwell_partners,base.group_user,1,1,1,0
-manage_commonwell_partners,manage_commonwell_partners,model_commonwell_partners,base.group_user,1,1,1,1
-access_commonwell_settings,access_commonwell_settings,model_commonwell_settings,base.group_user,1,0,0,0
-modify_commonwell_settings,modify_commonwell_settings,model_commonwell_settings,base.group_user,1,1,1,0
-manage_commonwell_settings,manage_commomwell_settings,model_commonwell_settings,base.group_user,1,1,1,1
+access_commonwell_partners,access_commonwell_partners,model_res_partner,base.group_user,1,0,0,0
+modify_commonwell_partners,modify_commonwell_partners,model_res_partner,base.group_user,1,1,1,0
+manage_commonwell_partners,manage_commonwell_partners,model_res_partner,base.group_user,1,1,1,1
+access_commonwell_partner_types,access_commonwell_partner_types,model_res_partner_types,base.group_user,1,0,0,0
+modify_commonwell_partner_types,modify_commonwell_partner_types,model_res_partner_types,base.group_user,1,1,1,0
+manage_commonwell_partner_types,manage_commonwell_partner_types,model_res_partner_types,base.group_user,1,1,1,1
+access_commonwell_users,access_commonwell_users,model_res_users,base.group_user,1,0,0,0
+modify_commonwell_users,modify_commonwell_users,model_res_users,base.group_user,1,1,1,0
+manage_commonwell_users,manage_commonwell_users,model_res_users,base.group_user,1,1,1,1
+

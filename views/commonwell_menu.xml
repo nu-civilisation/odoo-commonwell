@@ -2,7 +2,7 @@
 <odoo>
     <menuitem id="commonwell_menu_root" name="CommonWell">
         <menuitem id="commonwell_menu_cultivation" name="Cultivation">
-            <menuitem id="commonwell_menu_partners" action="commonwell_action_partners"/>
+            <menuitem id="commonwell_menu_partners" action="commonwell_partners_action"/>
         </menuitem>
         <menuitem id="commonwell_menu_settings" name="Settings">
             <menuitem id="commonwell_menu_partner_types" action="commonwell_action_partner_types"/>
