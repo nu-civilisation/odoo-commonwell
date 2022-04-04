@@ -9,7 +9,7 @@ class Partner(models.Model):
     _inherit = "res.partner"
     # ...Be sure to only define "_inherit" field and not the "_name", since we are extending the base class "res.partner".
 
-    admin_ids = fields.One2many(comodel_name="res.users", inverse_name="administrating", string="Admins")
+    caretaker_ids = fields.One2many(comodel_name="res.users", inverse_name="caring", string="Caretaker")
     type_id = fields.Many2one(comodel_name="res.partner.types", string="Type")
     tag_ids = fields.Many2many(comodel_name="res.partner.tags", string="Tags")
     presentation_text = fields.Text(string="Presentation Text", translate=True)

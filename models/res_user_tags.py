@@ -6,8 +6,8 @@ from odoo import models
 
 
 class PartnerTags(models.Model):
-    _name = "res.partner.tags"
-    _description = "Contact Tags"
+    _name = "res.user.tags"
+    _description = "User Tags"
 
     name = fields.Char(string="Tag", translate=True, required=True, index=True)
     color = fields.Integer(string="Color")

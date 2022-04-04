@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="commonwell_action_users" model="ir.actions.act_window">
+        <field name="name">Users</field>
+        <field name="res_model">res.users</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="res_user_view_form" model="ir.ui.view">
+        <field name="name">commonwell.res.user.form</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_simple_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='phone_numbers']" position="after">
+                <notebook colspan="4">
+                    <page name="caring" string="Caring">
+                        <field name="caring">
+                            <tree>
+                                <field name="display_name"/>
+                                <field name="email" optional="show"/>
+                                <field name="company_id" groups="base.group_multi_company" readonly="1"/>
+                                <field name="tag_ids"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </xpath>
+        </field>
+    </record>
+</odoo>
+

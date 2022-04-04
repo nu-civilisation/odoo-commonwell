@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <odoo>
     <record id="commonwell_action_partner_types" model="ir.actions.act_window">
-        <field name="name">Types</field>
+        <field name="name">Partner Types</field>
         <field name="res_model">res.partner.types</field>
         <field name="view_mode">tree,form</field>
     </record>

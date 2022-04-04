@@ -5,7 +5,12 @@ manage_commonwell_partners,manage_commonwell_partners,model_res_partner,base.gro
 access_commonwell_partner_types,access_commonwell_partner_types,model_res_partner_types,base.group_user,1,0,0,0
 modify_commonwell_partner_types,modify_commonwell_partner_types,model_res_partner_types,base.group_user,1,1,1,0
 manage_commonwell_partner_types,manage_commonwell_partner_types,model_res_partner_types,base.group_user,1,1,1,1
+access_commonwell_partner_tags,access_commonwell_partner_tags,model_res_partner_tags,base.group_user,1,0,0,0
+modify_commonwell_partner_tags,modify_commonwell_partner_tags,model_res_partner_tags,base.group_user,1,1,1,0
+manage_commonwell_partner_tags,manage_commonwell_partner_tags,model_res_partner_tags,base.group_user,1,1,1,1
+access_commonwell_user_tags,access_commonwell_user_tags,model_res_user_tags,base.group_user,1,0,0,0
+modify_commonwell_user_tags,modify_commonwell_user_tags,model_res_user_tags,base.group_user,1,1,1,0
+manage_commonwell_user_tags,manage_commonwell_user_tags,model_res_user_tags,base.group_user,1,1,1,1
 access_commonwell_users,access_commonwell_users,model_res_users,base.group_user,1,0,0,0
 modify_commonwell_users,modify_commonwell_users,model_res_users,base.group_user,1,1,1,0
 manage_commonwell_users,manage_commonwell_users,model_res_users,base.group_user,1,1,1,1
-

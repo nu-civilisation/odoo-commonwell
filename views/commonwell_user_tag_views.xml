@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="commonwell_action_user_tags" model="ir.actions.act_window">
+        <field name="name">User Tags</field>
+        <field name="res_model">res.user.tags</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

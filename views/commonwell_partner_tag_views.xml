@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <odoo>
     <record id="commonwell_action_partner_tags" model="ir.actions.act_window">
-        <field name="name">Tags</field>
+        <field name="name">Partner Tags</field>
         <field name="res_model">res.partner.tags</field>
         <field name="view_mode">tree,form</field>
     </record>

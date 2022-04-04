@@ -2,11 +2,13 @@
 <odoo>
     <menuitem id="commonwell_menu_root" name="CommonWell">
         <menuitem id="commonwell_menu_cultivation" name="Cultivation">
-            <menuitem id="commonwell_menu_partners" action="commonwell_partners_action"/>
+            <menuitem id="commonwell_menu_partners" action="commonwell_action_partners"/>
+            <menuitem id="commonwell_menu_users" action="commonwell_action_users"/>
         </menuitem>
         <menuitem id="commonwell_menu_settings" name="Settings">
             <menuitem id="commonwell_menu_partner_types" action="commonwell_action_partner_types"/>
             <menuitem id="commonwell_menu_partner_tags" action="commonwell_action_partner_tags"/>
+            <menuitem id="commonwell_menu_user_tags" action="commonwell_action_user_tags"/>
         </menuitem>
     </menuitem>
 </odoo>
